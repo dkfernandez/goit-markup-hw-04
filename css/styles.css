@@ -109,6 +109,7 @@ link {
 
 .link {
   text-decoration: none;
+  color: var(--navyblue);
 }
 
 .project .name {
@@ -233,6 +234,20 @@ link {
 .hero {
   padding: 200px 0;
   text-align: center;
+}
+
+.bg-hero{
+padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/herobg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title {
