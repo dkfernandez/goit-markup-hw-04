@@ -322,6 +322,17 @@ padding-top: 188px;
   margin-bottom: 50px;
 }
 
+.svg-box{
+  width: 264px;
+  height: 112px;
+  background-color: var(--cloud);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .team .name,
 .team .position {
   line-height: 1.19;
@@ -366,6 +377,75 @@ padding-top: 188px;
     0px 1px 2px rgba(0, 0, 0, 0.12);
 }
 
+.socialmedia-list .list{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.team-socialmedia-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--iriscolor);
+  color: var(--cloud);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--oceancolor);
+}
+
+.socialmedia-item{
+  width: 40px;
+  height: 40px;
+}
+
+.customers-title {
+  color: var(--navyblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+
+.customers-item {
+  width: 168px;
+  height: 88px;
+}
+
+.customers-link {
+  width: 100%;
+  height: 100%;
+
+  border: 1px solid #8e8f99;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8e8f99;
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border-color: var(--oceancolor);
+  color: var(--oceancolor);
+}
+
+.customers-svg {
+  width: 104px;
+  height: 56px;
+  fill: currentColor;
+}
+
 .bg-footer {
   background-color: var(--navyblue);
 }
@@ -380,4 +460,45 @@ padding-top: 188px;
   font-weight: 400;
   line-height: 1.5;
   padding-top: 17px;
+}
+
+.footer-socialsmedia{
+  margin-left: 120px;
+}
+
+.footer-socialmedia-title{
+  color: var(--whitecolor);
+  display: flex;
+}
+
+.footer-list{
+  flex-wrap: wrap;
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.footer-social{
+  width: 40px;
+  height: 40px;
+}
+
+.footer-links{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--iriscolor);
+  margin-top: 8px;
+}
+
+.footer-links:hover,
+.footer-links:focus {
+  background-color: #31d0aa;
+}
+
+.footer-svg{
+  fill: var(--cloud);
 }
